@@ -9,14 +9,19 @@ function loadImage(container) {
   // contact api to get image
   var features = getContainerFeatures(container);
   features.hash = container.data('hash');
-  $.get('/api/image/'+features.hash, features, function(data) {
-    // create image object
-    var img = new Image();
-    var blob = new Blob([data], {type: "application/octet-stream"});
-    img.src = (window.URL || window.webkitURL).createObjectURL(blob);
-    container.text('');
-    container.append(img);
-  });
+
+  var ajaxRequest = new XMLHttpRequest();
+  ajaxRequest.open('GET', '/api/image/'+features.hash, true);
+  ajaxRequest.responseType = 'blob';
+  ajaxRequest.onload = function(e) {
+    if (this.status == 200) {
+      var img = new Image();
+      img.src = (window.URL || window.webkitURL).createObjectURL(this.response);
+      container.text('');
+      container.append(img);
+    }
+  };
+  ajaxRequest.send();
 };
 
 
