@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/controllers/ImageController.java" afterPath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/controllers/ImageController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SilkStream.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -163,7 +161,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="312" column="5" selection-start="8733" selection-end="8733" vertical-scroll-proportion="0.8306998">
+            <state line="311" column="19" selection-start="8743" selection-end="8743" vertical-scroll-proportion="0.8465011">
               <folding />
             </state>
           </provider>
@@ -1119,7 +1117,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="312" column="5" selection-start="8733" selection-end="8733" vertical-scroll-proportion="0.8306998">
+        <state line="311" column="19" selection-start="8743" selection-end="8743" vertical-scroll-proportion="0.8465011">
           <folding />
         </state>
       </provider>

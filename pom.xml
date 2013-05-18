@@ -309,8 +309,7 @@
 			<artifactId>jmagick</artifactId>
 			<version>6.6.9</version>
 		</dependency>
-
-git c	</dependencies>
+	</dependencies>
 
 	<repositories>
 		<repository>
