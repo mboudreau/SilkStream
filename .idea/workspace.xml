@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/controllers/ImageController.java" afterPath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/controllers/ImageController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SilkStream.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -15,7 +17,8 @@
     <file path="/ExampleService.java" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368848386754" ignored="false" />
     <file path="/applicationContext.xml" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368848660051" ignored="false" />
     <file path="/a.dummy" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368851397766" ignored="false" />
-    <file path="/ImageController.java" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368856868018" ignored="false" />
+    <file path="/ImageController.java" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368858253788" ignored="false" />
+    <file path="/pom.xml" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368858344651" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,10 +88,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ImageController.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ImageController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/silkstream/platform/controllers/ImageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="33" selection-start="1400" selection-end="1400" vertical-scroll-proportion="0.22121896">
+            <state line="47" column="25" selection-start="1649" selection-end="1649" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -157,10 +160,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="313" column="0" selection-start="8745" selection-end="8745" vertical-scroll-proportion="0.0">
+            <state line="312" column="5" selection-start="8733" selection-end="8733" vertical-scroll-proportion="0.8306998">
               <folding />
             </state>
           </provider>
@@ -208,9 +211,9 @@
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/spring/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/spring/sharedBeans.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/silkstream/platform/controllers/ImageController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -1072,13 +1075,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="313" column="0" selection-start="8745" selection-end="8745" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="43" selection-start="1388" selection-end="1388" vertical-scroll-proportion="-21.25">
@@ -1116,7 +1112,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/silkstream/platform/controllers/ImageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="33" selection-start="1400" selection-end="1400" vertical-scroll-proportion="0.22121896">
+        <state line="47" column="25" selection-start="1649" selection-end="1649" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="312" column="5" selection-start="8733" selection-end="8733" vertical-scroll-proportion="0.8306998">
           <folding />
         </state>
       </provider>

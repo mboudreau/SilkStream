@@ -1,6 +1,5 @@
 package com.silkstream.platform.controllers;
 
-import org.apache.commons.codec.binary.Base64;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
@@ -32,20 +31,20 @@ public class ImageController extends BasicController {
 	}
 
 	@ResponseStatus(HttpStatus.OK)
-	@RequestMapping(method = RequestMethod.GET, value = "{id}", produces = "text/plain")
+	@RequestMapping(method = RequestMethod.GET, value = "{id}", produces = "application/octet-stream")
 	@ResponseBody
-	public String index(@PathVariable String id) {
+	public byte[] index(@PathVariable String id) {
 		ClassPathResource resource = new ClassPathResource("images/" + id + ".jpg");
 		if (!resource.exists()) {
 			throw new Error("ID is not valid.");
 		}
-		String bytes = null;
+		byte[] bytes = null;
 		try {
 
 			BufferedImage image = ImageIO.read(resource.getFile());
 			ByteArrayOutputStream baos = new ByteArrayOutputStream();
 			ImageIO.write(image, "jpg", baos);
-			bytes = Base64.encodeBase64String(baos.toByteArray());
+			bytes = baos.toByteArray();
 			baos.close();
 
 //			ImageInfo origInfo = new ImageInfo(); //load image info
