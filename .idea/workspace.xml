@@ -2,17 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/BeanstalkProperties.java" afterPath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/BeanstalkProperties.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/libs/image-loader.js" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/libs/image-loader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/image-loader.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/libs/image-loader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/libs/modernizr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp.orig" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/libs/detect-zoom.js" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/detect-zoom.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SilkStream.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368832580417" ignored="false" />
     <file path="/web.xml" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368843240898" ignored="false" />
-    <file path="/index.jsp" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368859017663" ignored="false" />
+    <file path="/index.jsp" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368872471108" ignored="false" />
     <file path="/sharedBeans.xml" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368844819306" ignored="false" />
     <file path="/.gitignore" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368845706323" ignored="false" />
     <file path="/fragment.java" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368849644913" ignored="false" />
@@ -21,7 +23,7 @@
     <file path="/a.dummy" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368851397766" ignored="false" />
     <file path="/ImageController.java" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368858253788" ignored="false" />
     <file path="/pom.xml" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368858344651" ignored="false" />
-    <file path="/image-loader.js" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368862026513" ignored="false" />
+    <file path="/image-loader.js" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368874778025" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,15 +84,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="WebController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/silkstream/platform/controllers/WebController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="45" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ImageController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/silkstream/platform/controllers/ImageController.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -109,55 +102,48 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="applicationContext.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/applicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="0" selection-start="2412" selection-end="2412" vertical-scroll-proportion="-26.36">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="721" selection-end="721" vertical-scroll-proportion="-9.384615">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-            <state />
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sharedBeans.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/sharedBeans.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="598" selection-end="598" vertical-scroll-proportion="-3.6">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="72" selection-start="939" selection-end="939" vertical-scroll-proportion="-11.25">
+            <state line="36" column="79" selection-start="1553" selection-end="1553" vertical-scroll-proportion="-19.958334">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="image-loader.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/libs/image-loader.js">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/image-loader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="26" selection-start="1062" selection-end="1062" vertical-scroll-proportion="0.33860046">
+            <state line="49" column="31" selection-start="934" selection-end="934" vertical-scroll-proportion="0.49353448">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="detect-zoom.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/detect-zoom.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExampleService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/silkstream/platform/service/ExampleService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="42" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasicService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/silkstream/platform/service/BasicService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="24" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -166,7 +152,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="142" column="31" selection-start="4272" selection-end="4272" vertical-scroll-proportion="-2.46">
+            <state line="28" column="29" selection-start="1213" selection-end="1213" vertical-scroll-proportion="8.7">
               <folding />
             </state>
           </provider>
@@ -175,7 +161,16 @@
       <file leaf-file-name="BeanstalkProperties.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/BeanstalkProperties.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="60" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0">
+            <state line="13" column="46" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EnvironmentType.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/silkstream/platform/enums/EnvironmentType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="5" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -199,7 +194,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/silkstream/platform/service/UserLogService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/silkstream/platform/service/ExampleService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/spring/applicationServlet.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/silkstream/platform/controllers/BasicController.java" />
@@ -213,8 +207,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/silkstream/platform/controllers/ImageController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/BeanstalkProperties.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/libs/image-loader.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/image-loader.js" />
       </list>
     </option>
   </component>
@@ -391,10 +386,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -795,6 +786,9 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.silkstream.platform.controllers" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.silkstream.platform.controllers" />
     </key>
@@ -913,7 +907,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287858" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30013642" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -930,7 +924,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24646075" sideWeight="0.67121416" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24646075" sideWeight="0.69986355" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1003,29 +997,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/amazonaws/aws-java-sdk/1.4.3/aws-java-sdk-1.4.3-sources.jar!/com/amazonaws/services/dynamodb/AmazonDynamoDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="54" selection-start="1173" selection-end="1173" vertical-scroll-proportion="0.55979645">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/silkstream/platform/factory/DynamoDBClientFactoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="69" selection-start="896" selection-end="896" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/applicationServlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="66" selection-start="738" selection-end="738" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/sharedBeans.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="598" selection-end="598" vertical-scroll-proportion="-3.6">
@@ -1091,37 +1062,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/silkstream/platform/enums/EnvironmentType.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/silkstream/platform/service/ExampleService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="12" selection-start="142" selection-end="145" vertical-scroll-proportion="0.20316027">
+        <state line="6" column="42" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/silkstream/platform/service/BasicService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="24" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="31" selection-start="4272" selection-end="4272" vertical-scroll-proportion="-2.46">
+        <state line="28" column="29" selection-start="1213" selection-end="1213" vertical-scroll-proportion="8.7">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/silkstream/platform/enums/EnvironmentType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="5" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/BeanstalkProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="60" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0">
+        <state line="13" column="46" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/detect-zoom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="72" selection-start="939" selection-end="939" vertical-scroll-proportion="-11.25">
+        <state line="36" column="79" selection-start="1553" selection-end="1553" vertical-scroll-proportion="-19.958334">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/libs/image-loader.js">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/image-loader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="26" selection-start="1062" selection-end="1062" vertical-scroll-proportion="0.33860046">
+        <state line="49" column="31" selection-start="934" selection-end="934" vertical-scroll-proportion="0.49353448">
           <folding />
         </state>
       </provider>

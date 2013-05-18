@@ -14,16 +14,15 @@
 	  <link rel="stylesheet" href="${staticsBase}/css/main.css?v=${appVersion}" media="screen, projection" type="text/css"/>
 
 	  <%-- Modernizr needs to be in the header --%>
-	  <script type="text/javascript" src="${staticsBase}/js/libs/modernizr.js"></script>
-	  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	  <script type="text/javascript" src="${staticsBase}/js/libs/image-loader.js"></script>
+	  <script type="text/javascript" src="${staticsBase}/js/detect-zoom.js"></script>
+	  <script type="text/javascript" src="${staticsBase}/js/jquery.min.js"></script>
+	  <script type="text/javascript" src="${staticsBase}/js/jquery.ba-resize.min.js"></script>
+	  <script type="text/javascript" src="${staticsBase}/js/image-loader.js"></script>
     <!-- <script src="http://cdn.binaryjs.com/0/binary.js"></script> -->
 	  <title>SilkStream Demo</title>
 
   </head>
   <body>
-
-    Yep, seems to be working. BOOGA!
 
     <!-- IMAGE IDS
 
@@ -35,7 +34,7 @@
          2791f42c-d063-4ff9-81ac-b41ae94c04ad
 
       -->
-    <div id="some_id" data-hash="01746a60-4df3-40c1-bf5b-7c2f588b8ece" class="some_class"></div>
+    <div class="silkstream" data-hash="01746a60-4df3-40c1-bf5b-7c2f588b8ece" />
 
     <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1 1" preserveAspectRatio="none">
 	    <linearGradient id="grad-ucgg-generated" gradientUnits="userSpaceOnUse" x1="0%" y1="0%" x2="0%" y2="100%">
