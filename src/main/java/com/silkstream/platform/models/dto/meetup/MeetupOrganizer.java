@@ -1,0 +1,31 @@
+package com.silkstream.platform.models.dto.meetup;
+
+
+import org.codehaus.jackson.annotate.JsonIgnoreProperties;
+import org.codehaus.jackson.map.annotate.JsonSerialize;
+
+@JsonSerialize(
+		include = JsonSerialize.Inclusion.NON_NULL,
+		typing = JsonSerialize.Typing.STATIC
+)
+@JsonIgnoreProperties(ignoreUnknown = true)
+public class MeetupOrganizer {
+	private Long member_id;
+	private String name;
+
+	public Long getMember_id() {
+		return member_id;
+	}
+
+	public void setMember_id(Long member_id) {
+		this.member_id = member_id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+}

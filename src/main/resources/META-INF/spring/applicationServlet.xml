@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns:context="http://www.springframework.org/schema/context"
+		xmlns:mvc="http://www.springframework.org/schema/mvc"
+		xmlns:util="http://www.springframework.org/schema/util"
+		xmlns:sec="http://www.springframework.org/schema/security"
+		xsi:schemaLocation="
+		http://www.springframework.org/schema/mvc
+		http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd
+		http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+		http://www.springframework.org/schema/context
+		http://www.springframework.org/schema/context/spring-context-3.1.xsd
+		http://www.springframework.org/schema/util
+		http://www.springframework.org/schema/util/spring-util-3.0.xsd
+		http://www.springframework.org/schema/mvc
+		http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd
+		http://www.springframework.org/schema/security
+		http://www.springframework.org/schema/security/spring-security-3.1.xsd
+		http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans-3.1.xsd">
+
+	<import resource="classpath:META-INF/spring/sharedBeans.xml"/>
+
+	<bean id="conversionService" class="org.springframework.format.support.DefaultFormattingConversionService"/>
+
+	<bean id="exceptionHandler" class="com.silkstream.platform.exception.ExceptionHandler"/>
+
+	<bean id="servlet" class="org.springframework.web.servlet.DispatcherServlet"/>
+	<!-- resolve JSP views -->
+	<bean id="jspViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="order" value="1"/>
+		<property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>
+		<property name="prefix" value="/WEB-INF/views/"/>
+		<property name="suffix" value=".jsp"/>
+		<property name="exposedContextBeanNames">
+			<array>
+				<value>settings</value>
+			</array>
+		</property>
+	</bean>
+
+	<!-- Set up routing for static assets -->
+	<mvc:resources mapping="#{settings['staticsBase']}/**" location="/WEB-INF/resources/" cache-period="31556926"
+				   order="-1"/>
+</beans>

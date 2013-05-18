@@ -1,0 +1,32 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+	   xmlns:context="http://www.springframework.org/schema/context"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans-3.1.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-2.0.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd">
+	<bean id="roleHierarchy" class="org.springframework.security.access.hierarchicalroles.RoleHierarchyImpl">
+		<property name="hierarchy">
+			<value>
+				SUPERADMIN > ADMIN
+				ADMIN > USER
+			</value>
+		</property>
+	</bean>
+
+	<bean id="saltSource" class="org.springframework.security.authentication.dao.ReflectionSaltSource">
+		<property name="userPropertyToUse" value="createdDate"/>
+	</bean>
+
+	<bean id="encoder" class="org.springframework.security.authentication.encoding.ShaPasswordEncoder">
+		<constructor-arg name="strength" value="512"/>
+	</bean>
+
+	<!-- Grab properties -->
+	<context:property-placeholder
+			location="classpath:silkstream.properties"
+			ignore-resource-not-found="true"
+			ignore-unresolvable="false"
+			system-properties-mode="OVERRIDE"/>
+
+	<!-- Set properties for views -->
+	<util:properties id="settings" location="classpath:silkstream.properties"/>
+</beans>

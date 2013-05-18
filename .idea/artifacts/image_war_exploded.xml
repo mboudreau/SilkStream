@@ -1,0 +1,50 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="image:war exploded">
+    <output-path>$PROJECT_DIR$/target/image-0.1.0</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="image/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="image" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:3.1.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:3.1.1.RELEASE" />
+          <element id="library" level="project" name="Maven: com.restfb:restfb:1.6.9" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:3.1.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:3.1.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-core:3.1.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-web:3.1.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-config:3.1.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-taglibs:3.1.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security.oauth:spring-security-oauth:1.0.0.BUILD-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: org.springframework.security.oauth:spring-security-oauth2:1.0.0.BUILD-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: org.apache.velocity:velocity:1.7" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.6.4" />
+          <element id="library" level="project" name="Maven: org.slf4j:jcl-over-slf4j:1.6.4" />
+          <element id="library" level="project" name="Maven: org.slf4j:log4j-over-slf4j:1.6.4" />
+          <element id="library" level="project" name="Maven: org.slf4j:jul-to-slf4j:1.6.4" />
+          <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.0.0" />
+          <element id="library" level="project" name="Maven: com.google.apis:google-api-services-calendar:v3-rev7-1.6.0-beta" />
+          <element id="library" level="project" name="Maven: javax.mail:mail:1.4.3" />
+          <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
+          <element id="library" level="project" name="Maven: com.amazonaws:aws-java-sdk:1.4.3" />
+          <element id="library" level="project" name="Maven: com.michelboudreau:alternator:0.5.0" />
+          <element id="library" level="project" name="Maven: com.paypal.sdk:merchantsdk:2.1.96" />
+          <element id="library" level="project" name="Maven: com.paypal.sdk:permissionssdk:2.1.96" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.8" />
+          <element id="library" level="project" name="Maven: org.json:json:20090211" />
+          <element id="library" level="project" name="Maven: net.sf.dozer:dozer:5.3.2" />
+          <element id="library" level="project" name="Maven: cglib:cglib-nodep:2.2.2" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.6" />
+          <element id="library" level="project" name="Maven: com.javadocmd:simplelatlng:RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.social:spring-social-core:1.0.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.social:spring-social-web:1.0.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.social:spring-social-facebook-web:1.0.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.social:spring-social-facebook:1.0.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.dspace.dependencies:dspace-geoip:1.2.3" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
