@@ -8,11 +8,10 @@ import org.springframework.web.servlet.ModelAndView;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
-import java.awt.image.DataBufferByte;
-import java.awt.image.WritableRaster;
+import java.io.ByteArrayOutputStream;
 
 @Controller
-@RequestMapping("/api/image")
+@RequestMapping(value = "/api/image", produces = "application/json")
 public class ImageController extends BasicController {
 
 	@ResponseStatus(HttpStatus.BAD_REQUEST)
@@ -32,7 +31,7 @@ public class ImageController extends BasicController {
 	}
 
 	@ResponseStatus(HttpStatus.OK)
-	@RequestMapping(method = RequestMethod.GET, value = "{id}")
+	@RequestMapping(method = RequestMethod.GET, value = "{id}", produces = "application/octet-stream")
 	@ResponseBody
 	public byte[] index(@PathVariable String id) {
 		ClassPathResource resource = new ClassPathResource("images/" + id + ".jpg");
@@ -41,12 +40,18 @@ public class ImageController extends BasicController {
 		}
 		byte[] bytes = null;
 		try {
-			BufferedImage bufferedImage = ImageIO.read(resource.getFile());
 
-			// get DataBufferBytes from Raster
-			WritableRaster raster = bufferedImage.getRaster();
-			DataBufferByte data = (DataBufferByte) raster.getDataBuffer();
-			bytes = data.getData();
+			BufferedImage image = ImageIO.read(resource.getFile());
+			ByteArrayOutputStream baos = new ByteArrayOutputStream();
+			ImageIO.write(image, "jpg", baos);
+			bytes = baos.toByteArray();
+
+//			ImageInfo origInfo = new ImageInfo(); //load image info
+//			MagickImage image = new MagickImage(origInfo); //load image
+//			image = image.scaleImage(finalWidth, finalHeight); //to Scale image
+//			image.setFileName(absNewFilePath); //give new location
+//			image.writeImage(origInfo); //save
+
 		} catch (Exception e) {
 
 		}

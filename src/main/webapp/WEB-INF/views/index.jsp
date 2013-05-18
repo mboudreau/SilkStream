@@ -31,5 +31,7 @@ eda0a695-3f4c-4aa7-b5a8-33af5bd6093c
 access them with http://localhost:8080/api/image/<enter id here>
 
 -->
+
+<img src="data:image/svg+xml;base64,[data]>
 </body>
 </html>
