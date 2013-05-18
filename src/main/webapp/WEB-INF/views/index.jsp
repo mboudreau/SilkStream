@@ -28,6 +28,8 @@ eda0a695-3f4c-4aa7-b5a8-33af5bd6093c
 01746a60-4df3-40c1-bf5b-7c2f588b8ece
 2791f42c-d063-4ff9-81ac-b41ae94c04ad
 
+access them with http://localhost:8080/api/image/<enter id here>
+
 -->
 </body>
 </html>
