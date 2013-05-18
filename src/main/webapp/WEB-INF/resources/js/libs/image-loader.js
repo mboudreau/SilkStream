@@ -1,8 +1,8 @@
 function getContainerFeatures(element) {
   // window.devicePixelRatio is the ratio between physical pixels and device-independent pixels (dips) on the device.
   return {pixelRatio:window.devicePixelRatio,
-          elementWidth:element.height(),
-          elementHeight:element.width()};
+          elementWidth:element.width(),
+          elementHeight:element.height()};
 }
 
 function loadImage(container) {
