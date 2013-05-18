@@ -24,8 +24,20 @@ function loadImage(container) {
   ajaxRequest.send();
 };
 
+var screenDPI = 0;
+
+function findDPI() {
+	for (var i=50; i < 800; i++) {
+		if (matchMedia('(resolution: ' + i + 'dpi)').matches) {
+			return i;
+		}
+	}
+}
 
 $(function() {
+	// store DPI
+	screenDPI = findDPI();
+
   var imageContainer = $('#some_id');
   var resizeTimer, currentHeight, currentWidth;
   $(window).resize(function() {

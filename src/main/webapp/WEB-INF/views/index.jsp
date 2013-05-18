@@ -6,6 +6,8 @@
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml" class="no-js">
   <head>
+	  <meta name="viewport" content="width=device-width, target-densitydpi=device-dpi">
+
 	  <link href="https://plus.google.com/116781078488522205414" rel="publisher"/>
 
 	  <%-- styles --%>
@@ -17,6 +19,7 @@
 	  <script type="text/javascript" src="${staticsBase}/js/libs/image-loader.js"></script>
     <!-- <script src="http://cdn.binaryjs.com/0/binary.js"></script> -->
 	  <title>SilkStream Demo</title>
+
   </head>
   <body>
 
@@ -33,5 +36,13 @@
 
       -->
     <div id="some_id" data-hash="01746a60-4df3-40c1-bf5b-7c2f588b8ece" class="some_class"></div>
+
+    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1 1" preserveAspectRatio="none">
+	    <linearGradient id="grad-ucgg-generated" gradientUnits="userSpaceOnUse" x1="0%" y1="0%" x2="0%" y2="100%">
+		    <stop offset="0%" stop-color="#00b7ea" stop-opacity="1"/>
+		    <stop offset="100%" stop-color="#009ec3" stop-opacity="1"/>
+	    </linearGradient>
+	    <rect x="0" y="0" width="1" height="1" fill="url(#grad-ucgg-generated)" />
+    </svg>
   </body>
 </html>

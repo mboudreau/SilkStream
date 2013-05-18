@@ -39,13 +39,13 @@ public class BeanstalkProperties {
 	}
 
 	public String getDomainUrl() {
-		String domain = "local.silkstream.us:8080";
+		String domain = "localhost:8080";
 		if (environment == EnvironmentType.DEV) {
-			domain = "dev.silkstream.us";
+			domain = "silkstream.michelboudreau.com";
 		} else if (environment == EnvironmentType.STAGING) {
-			domain = "staging.silkstream.us";
+			domain = "silkstream.michelboudreau.com";
 		} else if (environment == EnvironmentType.PROD) {
-			domain = "www.silkstream.us";
+			domain = "silkstream.michelboudreau.com";
 		}
 		return "http://" + domain;
 	}
