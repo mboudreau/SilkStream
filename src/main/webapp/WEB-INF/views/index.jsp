@@ -18,5 +18,16 @@
 </head>
 <body>
 Yep, seems to be working. BOOGA!
+
+<!-- IMAGE IDS
+
+eda0a695-3f4c-4aa7-b5a8-33af5bd6093c
+53163555-304a-45c7-8f92-90fc56628e1e
+9a047da9-e96c-4f32-888e-1a93b94565c4
+4f68a68f-7df9-4be9-b0aa-061bd9fe5ace
+01746a60-4df3-40c1-bf5b-7c2f588b8ece
+2791f42c-d063-4ff9-81ac-b41ae94c04ad
+
+-->
 </body>
 </html>

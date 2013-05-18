@@ -1,6 +1,5 @@
 package com.silkstream.platform.controllers;
 
-import com.silkstream.platform.models.BeanstalkProperties;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -8,14 +7,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.servlet.ModelAndView;
 
-import javax.inject.Inject;
-
 @Controller
 @RequestMapping("/")
 public class WebController extends BasicController{
-	@Inject
-	private BeanstalkProperties properties;
-
 
 	@ResponseStatus(HttpStatus.BAD_REQUEST)
 	@RequestMapping(value = "api/**", method = RequestMethod.GET)

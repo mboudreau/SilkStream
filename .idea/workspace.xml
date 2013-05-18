@@ -2,256 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/ExampleDTO.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_apis_google_api_services_calendar_v3_rev7_1_6_0_beta.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_paypal_sdk_merchantsdk_2_1_96.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_paypal_sdk_permissionssdk_2_1_96.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_restfb_restfb_1_6_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_mail_1_4_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_1_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_dspace_dependencies_dspace_geoip_1_2_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_spring_security_oauth2_1_0_0_BUILD_SNAPSHOT.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_spring_security_oauth_1_0_0_BUILD_SNAPSHOT.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_3_1_1_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_3_1_1_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_taglibs_3_1_1_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_3_1_1_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_social_spring_social_core_1_0_2_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_social_spring_social_facebook_1_0_2_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_social_spring_social_facebook_web_1_0_1_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_social_spring_social_web_1_0_2_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/annotation/URLSerialize.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/comparator/ActivityComparator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/comparator/PlaceItemComparator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/comparator/ResultInfoComparator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/comparator/TivityItemComparator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/comparator/deprecated/VenueComparator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/comparator/deprecated/VenueSpaceComparator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/enums/ActionType.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/enums/FacebookPermission.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/enums/GenderType.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/enums/GoogleType.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/enums/IndexType.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/enums/ModelType.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/enums/NotificationType.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/enums/PaymentType.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/enums/RSVPType.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/enums/SearchIndexType.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/enums/SerializeType.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/enums/UserLogType.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/enums/UserRole.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/enums/WeekDay.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/exception/ApplicationException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/exception/ExceptionHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/exception/FacebookPermissionException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/exception/FacebookTokenInvalidException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/exception/GoogleServiceException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/exception/JsonParserCouldntReadFileException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/exception/MissingParametersException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/exception/ModelNullException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/exception/PlaceDoesntExistException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/exception/ValidatorException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/exception/WrongEmailException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/exception/WrongPasswordException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/exception/tivity/TivityNotExistException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/exception/user/PasswordDoesnotMatchException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/exception/user/UserAlreadyExistsException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/exception/user/UserConfirmationIdNotExist.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/exception/user/UserDoesntExistException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/exception/user/UserLockedException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/exception/user/UserNotEnabledException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/db/Comment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/db/DynamoDBModel.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/db/ExternalConnection.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/db/Invitation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/db/Notification.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/db/Payment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/db/Place.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/db/Tivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/db/User.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/db/UserConfirmation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/db/UserLog.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/db/serializer/FollowedSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/db/serializer/ModelTypeSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/ActivitiesItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/CommentItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/FBPermissions.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/FBReference.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/FirstTimeItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/GoogleResult.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/Invites.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/Mail.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/PlaceItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/PlacesItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/RequestCreateItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/RequestItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/SearchOptions.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/SearchResults.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/StringListItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/TivityItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/UserItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/UserLogItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/adapter/CommentAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/adapter/PlaceAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/adapter/TivityAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/adapter/UserAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/adapter/UserLogAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/deprecated/AddVenue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/deprecated/SearchRequest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/deprecated/SearchResult.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/deprecated/UserLogItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/freegeoip/IPLocation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/google/ResultInfo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/google/geocode/GoogleGeocodeGeometry.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/google/geocode/GoogleGeocodeGeometryBounds.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/google/geocode/GoogleGeocodeGeometryLocation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/google/geocode/GoogleReverseGeocode.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/google/geocode/GoogleReverseGeocodeResult.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/google/place/GooglePlace.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/google/place/GooglePlaceAutocompleteItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/google/place/GooglePlaceAutocompleteItemTerm.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/google/place/GooglePlaceAutocompleteResult.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/google/place/GooglePlaceResult.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/google/placedetail/GoogleComment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/google/placedetail/GoogleDetailAddressComponents.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/google/placedetail/GoogleDetailResult.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/google/placedetail/GoogleDetailReverse.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/meetup/MeetupCategory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/meetup/MeetupGroups.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/meetup/MeetupGroupsApiData.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/meetup/MeetupMessage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/meetup/MeetupMesssages.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/meetup/MeetupMeta.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/meetup/MeetupOauthResponse.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/meetup/MeetupOrganizer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/marshallers/AvailabilityMarshaller.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/marshallers/FeeMarshaller.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/marshallers/GenericMarshaller.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/marshallers/GeoDateMarshaller.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/marshallers/GeoLocationMarshaller.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/marshallers/MapStringStringMarshaller.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/marshallers/PlaceMarshaller.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/marshallers/RSVPMarshaller.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/marshallers/enums/ActionTypeMarshaller.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/marshallers/enums/GenderMarshaller.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/marshallers/enums/ModelTypeMarshaller.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/marshallers/enums/NotificationTypeMarshaller.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/marshallers/enums/PaymentTypeMarshaller.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/marshallers/enums/SearchIndexTypeMarshaller.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/marshallers/enums/UserLogTypeMarshaller.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/marshallers/enums/UserRoleMarshaller.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/marshallers/list/ListFollowedMarshaller.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/marshallers/list/ListGeoLocationMarshaller.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/marshallers/list/ListStringMarshaller.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/marshallers/list/ListUserInfoMarshaller.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/search/IndexItemRequest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/search/IndexItemResponse.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/search/IndexItemResponseMessage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/search/deprecated/Indexable.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/search/deprecated/index/ActivityIndexItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/search/deprecated/index/IndexItemRequest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/search/deprecated/index/IndexItemResponse.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/search/deprecated/index/IndexItemResponseMessage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/search/deprecated/index/VenueIndexItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/search/deprecated/index/VenueSpaceIndexItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/search/deprecated/search/SearchHit.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/search/deprecated/search/SearchHits.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/search/deprecated/search/SearchResponse.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/utils/AvailabilityDay.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/utils/Fee.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/utils/Followed.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/utils/GeoDate.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/utils/GeoLocation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/utils/Hours.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/utils/UserInfo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/utils/UserProfile.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/security/AuthenticationFailureHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/security/AuthenticationService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/security/AuthenticationSuccessHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/security/AuthentificationFilterImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/security/CustomAccessDeniedHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/security/SparklrUserApprovalHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/security/TivityRememberMeAuthenticationFilter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/security/social/ConnectionConverter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/security/social/DynamoDBConnectionRepository.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/security/social/DynamoDBConnectionService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/security/social/DynamoDBUsersConnectionRepository.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/security/social/TivityConnectionSignUp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/security/social/TivityProviderSignInController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/service/ActivityService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/service/CloudSearchService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/service/CommentService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/service/ConfirmationService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/service/FacebookService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/service/FollowService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/service/GeoIpService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/service/GoogleService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/service/InvitationService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/service/MailService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/service/MeetupService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/service/NotificationService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/service/PaymentService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/service/PlaceService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/service/ReputationService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/service/TivityMapperService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/service/TivityService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/service/UserService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/service/backup/DatabaseBackup.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/utils/EmailUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/utils/InetAddressUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/validator/MailValidator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/validator/NotificationValidator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/validator/PlaceItemValidator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/validator/TivityItemValidator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/validator/UserValidator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/validator/Validator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/validator/ValidatorUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/web/ActivityController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/web/CommentController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/web/ConfirmationController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/web/FirstTimeController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/web/GeoLocationController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/web/InvitationController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/web/MailController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/web/MeetupController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/web/PaymentController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/web/PlaceController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/web/TivityController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/web/UserController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/web/UserLogController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/spring/applicationContext-oauth.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/crossdomain.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/humans.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/robots.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/sitemap.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/meta.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/styles.jsp" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/service/UserLogService.java" afterPath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/service/ExampleService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/web/BasicController.java" afterPath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/controllers/BasicController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/webapp/web/WebController.java" afterPath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/controllers/WebController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/service/BasicService.java" afterPath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/service/BasicService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/factory/DynamoDBClientFactoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/factory/DynamoDBClientFactoryBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/spring/applicationContext.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/spring/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/spring/applicationServlet.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/spring/applicationServlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image.iml" afterPath="$PROJECT_DIR$/image.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/image_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/image_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/controllers/ImageController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/controllers/WebController.java" afterPath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/controllers/WebController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/main.css" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/spring/sharedBeans.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/spring/sharedBeans.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SilkStream.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368832580417" ignored="false" />
     <file path="/web.xml" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368843240898" ignored="false" />
-    <file path="/index.jsp" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368848780507" ignored="false" />
+    <file path="/index.jsp" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368850430944" ignored="false" />
     <file path="/sharedBeans.xml" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368844819306" ignored="false" />
     <file path="/.gitignore" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368845706323" ignored="false" />
-    <file path="/fragment.java" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368846333415" ignored="false" />
+    <file path="/fragment.java" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368849644913" ignored="false" />
     <file path="/ExampleService.java" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368848386754" ignored="false" />
     <file path="/applicationContext.xml" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368848660051" ignored="false" />
     <file path="/a.dummy" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368849069034" ignored="false" />
+    <file path="/ImageController.java" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368850781436" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -315,16 +82,16 @@
       <file leaf-file-name="WebController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/silkstream/platform/controllers/WebController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="63" selection-start="960" selection-end="960" vertical-scroll-proportion="0.0">
+            <state line="11" column="45" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BasicController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/silkstream/platform/controllers/BasicController.java">
+      <file leaf-file-name="ImageController.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/silkstream/platform/controllers/ImageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="11" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0">
+            <state line="50" column="0" selection-start="1682" selection-end="1682" vertical-scroll-proportion="0.89912283">
               <folding />
             </state>
           </provider>
@@ -333,7 +100,7 @@
       <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="415" selection-end="415" vertical-scroll-proportion="-5.625">
+            <state line="22" column="0" selection-start="783" selection-end="783" vertical-scroll-proportion="-11.208333">
               <folding />
             </state>
           </provider>
@@ -378,17 +145,10 @@
       <file leaf-file-name="DynamoDBClientFactoryBean.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/silkstream/platform/factory/DynamoDBClientFactoryBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="44" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AmazonDynamoDB.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/amazonaws/aws-java-sdk/1.4.3/aws-java-sdk-1.4.3-sources.jar!/com/amazonaws/services/dynamodb/AmazonDynamoDB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="41" selection-start="763" selection-end="777" vertical-scroll-proportion="0.10178117">
-              <folding />
+            <state line="21" column="69" selection-start="896" selection-end="896" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -411,8 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/main/java/com/silkstream/platform/controllers/StreamController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/BeanstalkProperties.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/UserLogItem.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/ExampleDTO.java" />
@@ -422,11 +180,13 @@
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/spring/applicationServlet.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/spring/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/silkstream/platform/controllers/BasicController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/main.css" />
         <option value="$PROJECT_DIR$/src/main/java/com/silkstream/platform/service/BasicService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/silkstream/platform/factory/DynamoDBClientFactoryBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/silkstream/platform/controllers/WebController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/silkstream/platform/controllers/ImageController.java" />
       </list>
     </option>
   </component>
@@ -745,6 +505,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SilkStream" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SilkStream" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1107,7 +893,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287858" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287858" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1188,13 +974,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/ExampleDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="23" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/silkstream/platform/service/ExampleService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="0" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0">
@@ -1230,27 +1009,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/silkstream/platform/controllers/WebController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="63" selection-start="960" selection-end="960" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/silkstream/platform/controllers/BasicController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="11" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="415" selection-end="415" vertical-scroll-proportion="-5.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="63" column="46" selection-start="2143" selection-end="2143" vertical-scroll-proportion="0.0">
@@ -1279,13 +1037,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/silkstream/platform/factory/DynamoDBClientFactoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="44" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/amazonaws/aws-java-sdk/1.4.3/aws-java-sdk-1.4.3.jar!/com/amazonaws/services/dynamodb/AmazonDynamoDB.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="3" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
@@ -1295,7 +1046,44 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/amazonaws/aws-java-sdk/1.4.3/aws-java-sdk-1.4.3-sources.jar!/com/amazonaws/services/dynamodb/AmazonDynamoDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="41" selection-start="763" selection-end="777" vertical-scroll-proportion="0.10178117">
+        <state line="33" column="54" selection-start="1173" selection-end="1173" vertical-scroll-proportion="0.55979645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/silkstream/platform/factory/DynamoDBClientFactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="69" selection-start="896" selection-end="896" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/silkstream/platform/controllers/BasicController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="350" selection-end="350" vertical-scroll-proportion="0.12903225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/silkstream/platform/controllers/WebController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="45" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="783" selection-end="783" vertical-scroll-proportion="-11.208333">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/silkstream/platform/controllers/ImageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="0" selection-start="1682" selection-end="1682" vertical-scroll-proportion="0.89912283">
           <folding />
         </state>
       </provider>
