@@ -8,8 +8,8 @@ import com.michelboudreau.alternator.AlternatorDBClient;
 import com.silkstream.platform.enums.EnvironmentType;
 import com.silkstream.platform.models.BeanstalkProperties;
 import org.springframework.beans.factory.FactoryBean;
-import javax.inject.Inject;
 
+import javax.inject.Inject;
 import java.io.File;
 
 public class DynamoDBClientFactoryBean implements FactoryBean<AmazonDynamoDB> {

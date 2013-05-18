@@ -27,12 +27,6 @@
 
 		<!-- Jetty beanstalk system properties -->
 		<jetty.beanstalk.env>LOCAL</jetty.beanstalk.env>
-		<jetty.beanstalk.documentUrl>
-			http://doc-tivity-65wa5f3y6s72zsrxbuplj2kwzy.us-east-1.cloudsearch.amazonaws.com/2011-02-01/documents/batch
-		</jetty.beanstalk.documentUrl>
-		<jetty.beanstalk.searchUrl>
-			http://search-tivity-65wa5f3y6s72zsrxbuplj2kwzy.us-east-1.cloudsearch.amazonaws.com/2011-02-01/search?
-		</jetty.beanstalk.searchUrl>
 
 		<forkMode>never</forkMode>
 		<debug>true</debug>
@@ -44,9 +38,6 @@
 			<resource>
 				<directory>src/main/resources</directory>
 				<filtering>true</filtering>
-				<excludes>
-					<exclude>src/main/resources/templates/**</exclude>
-				</excludes>
 			</resource>
 		</resources>
 		<plugins>
@@ -70,8 +61,6 @@
 				<configuration>
 					<systemPropertyVariables>
 						<PARAM1>TEST</PARAM1>
-						<PARAM2>${jetty.beanstalk.documentUrl}</PARAM2>
-						<PARAM3>${jetty.beanstalk.searchUrl}</PARAM3>
 					</systemPropertyVariables>
 				</configuration>
 			</plugin>
@@ -104,14 +93,6 @@
 						<systemProperty>
 							<name>PARAM1</name>
 							<value>${jetty.beanstalk.env}</value>
-						</systemProperty>
-						<systemProperty>
-							<name>PARAM2</name>
-							<value>${jetty.beanstalk.documentUrl}</value>
-						</systemProperty>
-						<systemProperty>
-							<name>PARAM3</name>
-							<value>${jetty.beanstalk.searchUrl}</value>
 						</systemProperty>
 					</systemProperties>
 				</configuration>
@@ -153,28 +134,6 @@
 				</executions>
 			</plugin>
 
-			<!-- Javascript Testing -->
-			<!--<plugin>
-				   <groupId>tv.bodil</groupId>
-				   <artifactId>maven-testlol-plugin</artifactId>
-				   <version>1.4</version>
-				   <executions>
-					   <execution>
-						   <phase>test</phase>
-						   <goals>
-							   <goal>test</goal>
-						   </goals>
-						   <configuration>
-							   <basePath>src/main/webapp/WEB-INF/resources/js</basePath>
-							   <testSuite>src/test/js</testSuite>
-							   <globalFiles>
-								   &lt;!&ndash; Files needed to be able to run tests &ndash;&gt;
-								   <param>src/main/webapp/js/jquery/jquery.js</param>
-							   </globalFiles>
-						   </configuration>
-					   </execution>
-				   </executions>
-			   </plugin>-->
 			<plugin>
 				<groupId>com.github.searls</groupId>
 				<artifactId>jasmine-maven-plugin</artifactId>
@@ -235,11 +194,6 @@
 			<version>${spring.framework.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>com.restfb</groupId>
-			<artifactId>restfb</artifactId>
-			<version>1.6.9</version>
-		</dependency>
-		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-web</artifactId>
 			<version>${spring.framework.version}</version>
@@ -248,43 +202,6 @@
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
 			<version>${spring.framework.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.security</groupId>
-			<artifactId>spring-security-core</artifactId>
-			<version>${spring.security.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.security</groupId>
-			<artifactId>spring-security-web</artifactId>
-			<version>${spring.security.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.security</groupId>
-			<artifactId>spring-security-config</artifactId>
-			<version>${spring.security.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.security</groupId>
-			<artifactId>spring-security-taglibs</artifactId>
-			<version>${spring.security.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.security.oauth</groupId>
-			<artifactId>spring-security-oauth</artifactId>
-			<version>${spring.security.oauth.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.security.oauth</groupId>
-			<artifactId>spring-security-oauth2</artifactId>
-			<version>${spring.security.oauth.version}</version>
-		</dependency>
-
-		<!-- Velocity Templates -->
-		<dependency>
-			<groupId>org.apache.velocity</groupId>
-			<artifactId>velocity</artifactId>
-			<version>1.7</version>
 		</dependency>
 
 		<!-- Logging -->
@@ -317,19 +234,6 @@
 			<version>1.0.0</version>
 		</dependency>
 
-		<!-- Google Calendar -->       <!-- https://code.google.com/p/google-api-java-client/wiki/APIs#Calendar_API -->
-		<dependency>
-			<groupId>com.google.apis</groupId>
-			<artifactId>google-api-services-calendar</artifactId>
-			<version>v3-rev7-1.6.0-beta</version>
-		</dependency>
-
-		<!-- Java EE -->
-		<dependency>
-			<groupId>javax.mail</groupId>
-			<artifactId>mail</artifactId>
-			<version>1.4.3</version>
-		</dependency>
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>servlet-api</artifactId>
@@ -373,18 +277,6 @@
 			<version>${alternator.version}</version>
 		</dependency>
 
-		<!-- Payment SDKs -->
-		<dependency>
-			<groupId>com.paypal.sdk</groupId>
-			<artifactId>merchantsdk</artifactId>
-			<version>2.1.96</version>
-		</dependency>
-		<dependency>
-			<groupId>com.paypal.sdk</groupId>
-			<artifactId>permissionssdk</artifactId>
-			<version>2.1.96</version>
-		</dependency>
-
 		<!-- Other -->
 		<dependency>
 			<groupId>org.codehaus.jackson</groupId>
@@ -410,43 +302,6 @@
 			<groupId>commons-codec</groupId>
 			<artifactId>commons-codec</artifactId>
 			<version>1.6</version>
-		</dependency>
-
-		<!-- for lat lon bounding boxes -->
-		<dependency>
-			<groupId>com.javadocmd</groupId>
-			<artifactId>simplelatlng</artifactId>
-			<version>RELEASE</version>
-		</dependency>
-
-		<!-- Spring social -->
-		<dependency>
-			<groupId>org.springframework.social</groupId>
-			<artifactId>spring-social-core</artifactId>
-			<version>1.0.2.RELEASE</version>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.social</groupId>
-			<artifactId>spring-social-web</artifactId>
-			<version>1.0.2.RELEASE</version>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.social</groupId>
-			<artifactId>spring-social-facebook-web</artifactId>
-			<version>1.0.1.RELEASE</version>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.social</groupId>
-			<artifactId>spring-social-facebook</artifactId>
-			<version>1.0.2.RELEASE</version>
-		</dependency>
-
-
-		<!--GEO IP LOCATION -->
-		<dependency>
-			<groupId>org.dspace.dependencies</groupId>
-			<artifactId>dspace-geoip</artifactId>
-			<version>1.2.3</version>
 		</dependency>
 
 	</dependencies>
