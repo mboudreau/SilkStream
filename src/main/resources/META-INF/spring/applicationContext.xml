@@ -56,16 +56,4 @@
 			<property name="useCacheControlNoStore" value="true"/>
 		</bean>
 	</mvc:interceptors>
-
-	<bean id="connectionFactoryLocator" class="org.springframework.social.connect.support.ConnectionFactoryRegistry">
-		<property name="connectionFactories">
-			<list>
-				<bean class="org.springframework.social.facebook.connect.FacebookConnectionFactory">
-					<constructor-arg value="103127473159068"/>
-					<constructor-arg value="d6825c6b7c6df34b1cb299ba4625bdad"/>
-				</bean>
-			</list>
-		</property>
-	</bean>
-
 </beans>

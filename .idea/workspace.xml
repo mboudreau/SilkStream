@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" name="Default" comment="" />
+    <list default="true" id="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/spring/applicationContext.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/spring/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/spring/sharedBeans.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/spring/sharedBeans.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="SilkStream.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368832580417" ignored="false" />
@@ -12,7 +18,7 @@
     <file path="/fragment.java" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368849644913" ignored="false" />
     <file path="/ExampleService.java" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368848386754" ignored="false" />
     <file path="/applicationContext.xml" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368848660051" ignored="false" />
-    <file path="/a.dummy" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368849069034" ignored="false" />
+    <file path="/a.dummy" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368851397766" ignored="false" />
     <file path="/ImageController.java" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368850781436" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,10 +89,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ImageController.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ImageController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/silkstream/platform/controllers/ImageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="0" selection-start="1682" selection-end="1682" vertical-scroll-proportion="0.89912283">
+            <state line="32" column="0" selection-start="1064" selection-end="1064" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="58" column="0" selection-start="2412" selection-end="2412" vertical-scroll-proportion="-26.36">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="0" selection-start="721" selection-end="721" vertical-scroll-proportion="-9.384615">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+            <state />
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationServlet.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/applicationServlet.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="66" selection-start="738" selection-end="738" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sharedBeans.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/sharedBeans.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="0" selection-start="598" selection-end="598" vertical-scroll-proportion="-3.6">
               <folding />
             </state>
           </provider>
@@ -95,34 +146,16 @@
       <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="783" selection-end="783" vertical-scroll-proportion="-11.208333">
+            <state line="28" column="0" selection-start="969" selection-end="1005" vertical-scroll-proportion="-14.958333">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="46" selection-start="2143" selection-end="2143" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BeanstalkProperties.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/BeanstalkProperties.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="32" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="310" column="21" selection-start="8726" selection-end="8726" vertical-scroll-proportion="0.48245615">
               <folding />
             </state>
           </provider>
@@ -166,22 +199,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/BeanstalkProperties.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/UserLogItem.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/silkstream/platform/models/dto/ExampleDTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/silkstream/platform/service/UserLogService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/silkstream/platform/service/ExampleService.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/spring/sharedBeans.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/spring/applicationServlet.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/spring/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/silkstream/platform/controllers/BasicController.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/main.css" />
         <option value="$PROJECT_DIR$/src/main/java/com/silkstream/platform/service/BasicService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/silkstream/platform/factory/DynamoDBClientFactoryBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/silkstream/platform/controllers/WebController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/silkstream/platform/controllers/ImageController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/spring/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/spring/sharedBeans.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -969,44 +1002,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/silkstream/platform/service/ExampleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/silkstream/platform/utils/StringUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="13" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/sharedBeans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="767" selection-end="767" vertical-scroll-proportion="-5.4">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/applicationServlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="66" selection-start="738" selection-end="738" vertical-scroll-proportion="-8.4">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="53" selection-start="992" selection-end="992" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="46" selection-start="2143" selection-end="2143" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1069,16 +1067,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/silkstream/platform/controllers/ImageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="783" selection-end="783" vertical-scroll-proportion="-11.208333">
+        <state line="32" column="0" selection-start="1064" selection-end="1064" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/silkstream/platform/controllers/ImageController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/applicationServlet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="0" selection-start="1682" selection-end="1682" vertical-scroll-proportion="0.89912283">
+        <state line="14" column="66" selection-start="738" selection-end="738" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/sharedBeans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="598" selection-end="598" vertical-scroll-proportion="-3.6">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="0" selection-start="2412" selection-end="2412" vertical-scroll-proportion="-26.36">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="721" selection-end="721" vertical-scroll-proportion="-9.384615">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="969" selection-end="1005" vertical-scroll-proportion="-14.958333">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="310" column="21" selection-start="8726" selection-end="8726" vertical-scroll-proportion="0.48245615">
           <folding />
         </state>
       </provider>
