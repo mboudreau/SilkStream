@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/silkstream.properties" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_javadocmd_simplelatlng_RELEASE.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_spring_security_oauth2_1_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_spring_security_oauth2_1_0_0_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_spring_security_oauth_1_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_spring_security_oauth_1_0_0_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image.iml" afterPath="$PROJECT_DIR$/image.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/image_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/image_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SilkStream.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -127,7 +132,7 @@
       <file leaf-file-name="WebController.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/silkstream/webapp/web/WebController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="646" selection-end="646" vertical-scroll-proportion="0.19121814">
+            <state line="35" column="59" selection-start="1229" selection-end="1229" vertical-scroll-proportion="0.5736544">
               <folding />
             </state>
           </provider>
@@ -183,8 +188,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
-    <option name="y" value="32" />
+    <option name="x" value="-1" />
+    <option name="y" value="24" />
     <option name="width" value="1602" />
     <option name="height" value="877" />
   </component>
@@ -871,7 +876,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="32" width="1602" height="877" extended-state="6" />
+    <frame x="-1" y="24" width="1602" height="877" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -1036,7 +1041,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/silkstream/webapp/web/WebController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="646" selection-end="646" vertical-scroll-proportion="0.19121814">
+        <state line="35" column="59" selection-start="1229" selection-end="1229" vertical-scroll-proportion="0.5736544">
           <folding />
         </state>
       </provider>
