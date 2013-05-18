@@ -1,4 +1,4 @@
-function getScreenFeatures(element) {
+function getContainerFeatures(element) {
   // window.devicePixelRatio is the ratio between physical pixels and device-independent pixels (dips) on the device.
   return {pixelRatio:window.devicePixelRatio,
           elementWidth:element.height(),
@@ -7,22 +7,28 @@ function getScreenFeatures(element) {
 
 function loadImage(container) {
   // contact api to get image
-  var features = getScreenFeatures(container);
+  var features = getContainerFeatures(container);
   features.hash = container.data('hash');
-  $.getJSON('/', features, function(data) {
+  $.get('/api/image/'+features.hash, features, function(data) {
     // create image object
     var img = new Image();
-    var blob = new Blob(data {type: "application/octet-binary"});
-    img.src =(window.URL || window.webkitURL).createObjectURL(blob);
-    container.replaceWith(img);
+    var blob = new Blob([data], {type: "application/octet-stream"});
+    img.src = (window.URL || window.webkitURL).createObjectURL(blob);
+    container.text('');
+    container.append(img);
   });
 };
 
 
 $(function() {
   var imageContainer = $('#some_id');
-  var resizeTimer;
+  var resizeTimer, currentHeight, currentWidth;
   $(window).resize(function() {
+    if (imageContainer.height() == currentHeight &&
+        imageContainer.width() == currentWidth)
+      return;
+    currentWidth = imageContainer.width();
+    currentHeight = imageContainer.height();
     clearTimeout(resizeTimer);
     resizeTimer = setTimeout(function() { loadImage(imageContainer); }, 100);
   });
