@@ -8,10 +8,9 @@ function getContainerFeatures(element) {
 function loadImage(container) {
   // contact api to get image
   var features = getContainerFeatures(container);
-  features.hash = container.data('hash');
 
   var ajaxRequest = new XMLHttpRequest();
-  ajaxRequest.open('GET', '/api/image/'+features.hash, true);
+  ajaxRequest.open('GET', '/api/image/' + container.data('hash') + '?elementWidth=' + features.elementWidth + '&elementHeight=' + features.elementHeight + '&pixelRatio=' + features.pixelRatio, true);
   ajaxRequest.responseType = 'blob';
   ajaxRequest.onload = function(e) {
     if (this.status == 200) {
