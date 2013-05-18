@@ -32,11 +32,6 @@
          2791f42c-d063-4ff9-81ac-b41ae94c04ad
 
       -->
-    <div id="some_id" data-hash="eda0a695-3f4c-4aa7-b5a8-33af5bd6093c" class="some_class">
-    </div>
+    <div id="some_id" data-hash="01746a60-4df3-40c1-bf5b-7c2f588b8ece" class="some_class"></div>
   </body>
-</html>
-
--->
-</body>
 </html>
