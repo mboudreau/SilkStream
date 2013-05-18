@@ -40,8 +40,6 @@
     <script type="text/javascript" src="${staticsBase}/js/jquery.min.js"></script>
     <script type="text/javascript" src="${staticsBase}/js/jquery.ba-resize.min.js"></script>
     <script type="text/javascript" src="${staticsBase}/js/detect-zoom.js"></script>
-    <script type="text/javascript" src="${staticsBase}/js/matchMedia.js"></script>
-    <script type="text/javascript" src="${staticsBase}/js/matchMedia.addListener.js"></script>
     <script type="text/javascript" src="${staticsBase}/js/image-loader.js"></script>
   </body>
 </html>
