@@ -2,15 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" name="Default" comment="">
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/controllers/ImageController.java" afterPath="$PROJECT_DIR$/src/main/java/com/silkstream/platform/controllers/ImageController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/spring/applicationContext.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/spring/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/spring/sharedBeans.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/spring/sharedBeans.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+>>>>>>> d063a217b4c8a29bbfc7a736b64c82226cf30aba
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SilkStream.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368832580417" ignored="false" />
     <file path="/web.xml" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368843240898" ignored="false" />
-    <file path="/index.jsp" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368851741378" ignored="false" />
+    <file path="/index.jsp" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368850430944" ignored="false" />
     <file path="/sharedBeans.xml" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368844819306" ignored="false" />
     <file path="/.gitignore" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368845706323" ignored="false" />
     <file path="/fragment.java" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368849644913" ignored="false" />
@@ -153,16 +160,20 @@
       <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="34" column="43" selection-start="1121" selection-end="1121" vertical-scroll-proportion="-21.25">
+=======
+            <state line="28" column="0" selection-start="969" selection-end="1005" vertical-scroll-proportion="-14.958333">
+>>>>>>> d063a217b4c8a29bbfc7a736b64c82226cf30aba
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="313" column="0" selection-start="8745" selection-end="8745" vertical-scroll-proportion="0.0">
+            <state line="310" column="21" selection-start="8726" selection-end="8726" vertical-scroll-proportion="0.48245615">
               <folding />
             </state>
           </provider>
@@ -207,12 +218,20 @@
         <option value="$PROJECT_DIR$/src/main/java/com/silkstream/platform/service/BasicService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/silkstream/platform/factory/DynamoDBClientFactoryBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/silkstream/platform/controllers/WebController.java" />
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/silkstream/platform/controllers/ImageController.java" />
+>>>>>>> d063a217b4c8a29bbfc7a736b64c82226cf30aba
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/spring/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/spring/sharedBeans.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/silkstream/platform/controllers/ImageController.java" />
+=======
+>>>>>>> d063a217b4c8a29bbfc7a736b64c82226cf30aba
       </list>
     </option>
   </component>
@@ -1074,15 +1093,16 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="313" column="0" selection-start="8745" selection-end="8745" vertical-scroll-proportion="0.0">
+        <state line="28" column="0" selection-start="969" selection-end="1005" vertical-scroll-proportion="-14.958333">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="34" column="43" selection-start="1121" selection-end="1121" vertical-scroll-proportion="-21.25">
           <folding />
         </state>
@@ -1119,6 +1139,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/silkstream/platform/controllers/ImageController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="35" selection-start="774" selection-end="774" vertical-scroll-proportion="0.40632054">
+=======
+        <state line="310" column="21" selection-start="8726" selection-end="8726" vertical-scroll-proportion="0.48245615">
+>>>>>>> d063a217b4c8a29bbfc7a736b64c82226cf30aba
           <folding />
         </state>
       </provider>
