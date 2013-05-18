@@ -1,15 +1,17 @@
 // VARIABLES
-var request = null;
+var requests = {};
 
 // MAIN
 $(function () {
 	$(window).resize(refresh);
-	$(".silkstream").resize(reloadImage);
 
 	refresh();
-	loadImage(imageContainer);
-});
 
+	$(".silkstream").each(function () {
+		loadImage($(this));
+		$(this).resize(reloadImage);
+	});
+});
 
 function refresh() {
 	var info = getDeviceInfo();
@@ -21,50 +23,68 @@ function refresh() {
 
 var timeout = 0;
 function reloadImage(e) {
-	var element = e.currentTarget;
+	var element = $(e.currentTarget);
 	clearTimeout(timeout);
-	timeout = setTimeout(function(){loadImage(element);}, 100);
+	timeout = setTimeout(function () {
+		loadImage(element);
+	}, 100);
 }
 
 function getDeviceInfo() {
 	// DPI
-	var dpi = 0;
-	for (var i = 50; i < 800; i++) {
-		if (matchMedia('(resolution: ' + i + 'dpi)').matches) {
-			dpi = i;
-			break;
-		}
-	}
+//	var dpi = 0;
+//	for (var i = 50; i < 500; i++) {
+//		if (window.matchMedia('(resolution: '+i+'dpi)').matches) {
+//			dpi = i;
+//			break;
+//		}
+//	}
 
-	return {dpi: dpi, zoom: window.detectZoom.zoom(), pixelRatio: window.detectZoom.device()};
+	return {/*dpi: dpi,*/ zoom: detectZoom.zoom(), pixelRatio: detectZoom.device()};
 }
 
 function loadImage(container) {
 	clearTimeout(timeout);
+
 	var info = getDeviceInfo();
-
-	if(request) {
-		request.abort();
-	}
-
-	// contact api to get image
-	request = new XMLHttpRequest();
-	request.open('GET', '/api/image/' + container.data('hash')
-		+ '?elementWidth=' + container.width()
+	// Create query string
+	var query = 'elementWidth=' + container.width()
 		+ '&elementHeight=' + container.height()
-		+ '&dpi=' + info.dpi
+		//+ '&dpi=' + info.dpi
 		+ '&zoom=' + info.zoom
-		+ '&pixelRatio=' + info.pixelRatio
-		, true);
-	request.responseType = 'blob';
-	request.onload = function () {
-		if (this.status == 200) {
-			var img = new Image();
-			img.src = (window.URL || window.webkitURL).createObjectURL(this.response);
-			container.html('');
-			container.append(img);
+		+ '&pixelRatio=' + info.pixelRatio;
+
+	// If query is different, load new image
+	if(container.data('query') != query) {
+
+		// Abort last request, it it exist for current image
+		if(requests[container.data('id')]) {
+			requests[container.data('id')].abort();
 		}
-		request = null;
-	};
-	request.send();
+
+		var request = new XMLHttpRequest();
+		request.open('GET', '/api/image/' + container.data('id') + '?' + query, true);
+		request.responseType = 'blob';
+		request.onload = function () {
+			if (this.status == 200) {
+				container.html('');
+				var img = new Image();
+				img.src = (window.URL || window.webkitURL).createObjectURL(this.response);
+				(img).load(function(){
+					// Reset query after image load if it changes the dimensions
+					var query = 'elementWidth=' + container.width()
+						+ '&elementHeight=' + container.height()
+						//+ '&dpi=' + info.dpi
+						+ '&zoom=' + info.zoom
+						+ '&pixelRatio=' + info.pixelRatio;
+					container.data('query', query);
+				});
+				container.append(img);
+			}
+			requests[container.data('id')] = null;
+		};
+		request.send();
+		requests[container.data('id')] = request;
+
+	}
 };

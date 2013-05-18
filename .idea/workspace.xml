@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/image-loader.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/libs/image-loader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/libs/modernizr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp.orig" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/libs/detect-zoom.js" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/detect-zoom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/image-loader.js" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/image-loader.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -14,7 +10,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368832580417" ignored="false" />
     <file path="/web.xml" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368843240898" ignored="false" />
-    <file path="/index.jsp" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368872471108" ignored="false" />
+    <file path="/index.jsp" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368884567282" ignored="false" />
     <file path="/sharedBeans.xml" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368844819306" ignored="false" />
     <file path="/.gitignore" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368845706323" ignored="false" />
     <file path="/fragment.java" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368849644913" ignored="false" />
@@ -23,7 +19,7 @@
     <file path="/a.dummy" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368851397766" ignored="false" />
     <file path="/ImageController.java" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368858253788" ignored="false" />
     <file path="/pom.xml" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368858344651" ignored="false" />
-    <file path="/image-loader.js" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368874778025" ignored="false" />
+    <file path="/image-loader.js" changelist="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" time="1368886669877" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +101,7 @@
       <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="79" selection-start="1553" selection-end="1553" vertical-scroll-proportion="-19.958334">
+            <state line="8" column="124" selection-start="446" selection-end="446" vertical-scroll-proportion="2.5">
               <folding />
             </state>
           </provider>
@@ -114,19 +110,8 @@
       <file leaf-file-name="image-loader.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/image-loader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="31" selection-start="934" selection-end="934" vertical-scroll-proportion="0.49353448">
+            <state line="72" column="16" selection-start="1690" selection-end="1690" vertical-scroll-proportion="0.3478261">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="detect-zoom.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/detect-zoom.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -775,10 +760,14 @@
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="preferences.keymap" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
@@ -892,6 +881,23 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="886dc7e7-d0ff-4f19-9bfc-2c2606807ff5" name="Default" comment="" />
@@ -1097,25 +1103,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/detect-zoom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="79" selection-start="1553" selection-end="1553" vertical-scroll-proportion="-19.958334">
+        <state line="8" column="124" selection-start="446" selection-end="446" vertical-scroll-proportion="2.5">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/image-loader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="31" selection-start="934" selection-end="934" vertical-scroll-proportion="0.49353448">
+        <state line="72" column="16" selection-start="1690" selection-end="1690" vertical-scroll-proportion="0.3478261">
           <folding />
         </state>
       </provider>
