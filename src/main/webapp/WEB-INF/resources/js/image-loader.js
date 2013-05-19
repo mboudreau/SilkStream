@@ -15,17 +15,16 @@ $(function () {
 
 function refresh() {
 	var info = getDeviceInfo();
-	var zoom = $('#zoom');
-	var device = $('#device');
-	zoom.text(info.zoom.toFixed(2));
-	device.text(info.pixelRatio.toFixed(2));
+	$('#dev .zoom label').text(info.zoom.toFixed(2));
+	$('#dev .ratio label').text(info.pixelRatio.toFixed(2));
 }
 
-var timeout = 0;
+var timers = {};
 function reloadImage(e) {
 	var element = $(e.currentTarget);
-	clearTimeout(timeout);
-	timeout = setTimeout(function () {
+	clearTimeout(timers[element.data('id')]);
+	timers[element.data('id')] = setTimeout(function () {
+		clearTimeout(timers[element.data('id')]);
 		loadImage(element);
 	}, 100);
 }
@@ -44,21 +43,19 @@ function getDeviceInfo() {
 }
 
 function loadImage(container) {
-	clearTimeout(timeout);
-
 	var info = getDeviceInfo();
 	// Create query string
-	var query = 'elementWidth=' + container.width()
-		+ '&elementHeight=' + container.height()
+	var query = 'width=' + container.width()
+		+ '&height=' + container.height()
 		//+ '&dpi=' + info.dpi
 		+ '&zoom=' + info.zoom
 		+ '&pixelRatio=' + info.pixelRatio;
 
 	// If query is different, load new image
-	if(container.data('query') != query) {
+	if (container.data('query') != query) {
 
 		// Abort last request, it it exist for current image
-		if(requests[container.data('id')]) {
+		if (requests[container.data('id')]) {
 			requests[container.data('id')].abort();
 		}
 
@@ -68,12 +65,15 @@ function loadImage(container) {
 		request.onload = function () {
 			if (this.status == 200) {
 				container.html('');
-				var img = new Image();
-				img.src = (window.URL || window.webkitURL).createObjectURL(this.response);
-				(img).load(function(){
+				var img = $(new Image());
+				//var svg = $('<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1 1" preserveAspectRatio="XMid YMid"><image /></svg>');
+				//var img = svg.find('image');
+				img.attr('src', (window.URL || window.webkitURL).createObjectURL(this.response));
+				//img.attr('xlink:href', (window.URL || window.webkitURL).createObjectURL(this.response));
+				img.load(function () {
 					// Reset query after image load if it changes the dimensions
-					var query = 'elementWidth=' + container.width()
-						+ '&elementHeight=' + container.height()
+					var query = 'width=' + container.width()
+						+ '&height=' + container.height()
 						//+ '&dpi=' + info.dpi
 						+ '&zoom=' + info.zoom
 						+ '&pixelRatio=' + info.pixelRatio;

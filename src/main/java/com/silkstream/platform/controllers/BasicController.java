@@ -4,11 +4,12 @@ import com.silkstream.platform.models.BeanstalkProperties;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
+import org.springframework.web.servlet.handler.SimpleMappingExceptionResolver;
 
 import javax.inject.Inject;
 import java.util.UUID;
 
-public class BasicController {
+public class BasicController extends SimpleMappingExceptionResolver {
 	//http://blog.cuttleworks.com/2011/12/spring-restful-controllers-and-error-handling/
 
 	@Inject
@@ -30,4 +31,10 @@ public class BasicController {
 	protected String createId() {
 		return UUID.randomUUID().toString().replaceAll("-", "");
 	}
+
+//	@Override
+//	protected ModelAndView doResolveException(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex) {
+//		if(ex.equals(ClientAbortException))
+//	}
+
 }
