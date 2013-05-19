@@ -9,7 +9,6 @@ $(function () {
 
 	$(".silkstream").each(function () {
 		loadImage($(this));
-		$(this).resize(reloadImage);
 	});
 });
 
@@ -17,6 +16,10 @@ function refresh() {
 	var info = getDeviceInfo();
 	$('#dev .zoom label').text(info.zoom.toFixed(2));
 	$('#dev .ratio label').text(info.pixelRatio.toFixed(2));
+
+	$(".silkstream").each(function () {
+		reloadImage(this);
+	});
 }
 
 var timers = {};
